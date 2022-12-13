@@ -1,5 +1,6 @@
 const Task = require('../models/Tasks')
 
+
 const getAllTasks = async (req, res) =>{
     try {
         const tasks = await Task.find({})
